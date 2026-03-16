@@ -199,8 +199,6 @@ npm i -g vercel
 vercel
 ```
 
-For more deployment options, see [docs/SETUP.md](docs/SETUP.md).
-
 ---
 
 ## 📚 Additional Resources
