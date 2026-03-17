@@ -1,6 +1,13 @@
 import { FC } from 'react';
 import Header from '@/components/Layout/Header';
 import HeroSection from '@/components/Hero/HeroSection';
+import TimelineSection from '@/components/Timeline/TimelineSection';
+import AgendaSection from '@/components/Agenda/AgendaSection';
+import FormatSection from '@/components/Format/FormatSection';
+import VenueSection from '@/components/Venue/VenueSection';
+import SponsorsSection from '@/components/Sponsors/SponsorsSection';
+import CallForTasksSection from '@/components/CallForTasks/CallForTasksSection';
+import RegistrationSection from '@/components/Registration/RegistrationSection';
 import Footer from '@/components/Layout/Footer';
 
 const Home: FC = () => {
@@ -8,6 +15,13 @@ const Home: FC = () => {
     <main className="flex flex-col min-h-screen bg-white">
       <Header />
       <HeroSection />
+      <TimelineSection />
+      <AgendaSection />
+      <FormatSection />
+      <VenueSection />
+      <SponsorsSection />
+      <CallForTasksSection />
+      <RegistrationSection />
       <Footer />
     </main>
   );

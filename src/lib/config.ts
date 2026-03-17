@@ -1,5 +1,3 @@
-// Application configuration and constants
-
 export const SITE_CONFIG = {
   name: 'PAIO 2026',
   description: 'Pan-African Informatics Olympiad - Celebrating Excellence in Computing Across Africa',
@@ -7,7 +5,11 @@ export const SITE_CONFIG = {
 };
 
 export const NAVIGATION_ITEMS = [
-  { label: 'Home', href: '/' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Timeline', href: '#timeline' },
+  { label: 'Agenda', href: '#agenda' },
+  { label: 'Format', href: '#format' },
+  { label: 'Venue', href: '#venue' },
+  { label: 'Sponsors', href: '#sponsors' },
+  { label: 'Register', href: '#registration' },
 ];
 
