@@ -2,7 +2,6 @@ import { FC } from 'react';
 import Header from '@/components/Layout/Header';
 import HeroSection from '@/components/Hero/HeroSection';
 import TimelineSection from '@/components/Timeline/TimelineSection';
-import AgendaSection from '@/components/Agenda/AgendaSection';
 import FormatSection from '@/components/Format/FormatSection';
 import VenueSection from '@/components/Venue/VenueSection';
 import SponsorsSection from '@/components/Sponsors/SponsorsSection';
@@ -16,7 +15,6 @@ const Home: FC = () => {
       <Header />
       <HeroSection />
       <TimelineSection />
-      <AgendaSection />
       <FormatSection />
       <VenueSection />
       <SponsorsSection />

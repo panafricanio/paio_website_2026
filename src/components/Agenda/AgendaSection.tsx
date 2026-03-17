@@ -24,14 +24,17 @@ const AgendaSection: FC = () => {
   const [activeDay, setActiveDay] = useState(0);
 
   return (
-    <section id="agenda" className="w-full bg-gray-50 section-spacing">
+    <div className="w-full bg-gray-50 section-spacing">
       <div className="max-w-5xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="mb-16">
           <p className="text-xs font-semibold tracking-widest uppercase text-gray-400 mb-3">Schedule</p>
           <h2 className="text-3xl sm:text-4xl font-bold text-black tracking-tight">Agenda</h2>
+          <p className="mt-4 text-gray-500 text-sm max-w-xl leading-relaxed">
+            7 days of competition, collaboration, and cultural exchange. August 2 - 8, 2026.
+          </p>
         </div>
 
-        <div className="flex gap-2 overflow-x-auto pb-4 mb-8">
+        <div className="flex gap-2 overflow-x-auto pb-4 mb-8 scrollbar-none">
           {agendaDays.map((day, index) => (
             <button
               key={day.id}
@@ -74,7 +77,7 @@ const AgendaSection: FC = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
