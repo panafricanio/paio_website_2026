@@ -8,16 +8,28 @@ export const timelineEvents: TimelineEvent[] = [
     description: 'National teams can begin registering their delegations for PAIO 2026.',
   },
   {
-    id: 'task-submission-deadline',
-    date: 'June 15, 2026',
-    title: 'Call for Tasks Deadline',
-    description: 'Final date for task proposals to be submitted by the scientific committee and contributors.',
+    id: 'task-open',
+    date: 'April 15, 2026',
+    title: 'Call for Tasks Opens',
+    description: 'First day for national delegations to complete their registration.',
+  },
+  {
+    id: 'training-starts',
+    date: 'April 30, 2026',
+    title: 'AOA Training Starts',
+    description: 'Interested Countries especially those new to competitive programming will join Training prepared by AOA.',
   },
   {
     id: 'registration-closes',
     date: 'May 30, 2026',
     title: 'Registration Closes',
     description: 'Last day for national delegations to complete their registration.',
+  },
+  {
+    id: 'task-submission-deadline',
+    date: 'June 15, 2026',
+    title: 'Call for Tasks Deadline',
+    description: 'Final date for task proposals to be submitted by the scientific committee and contributors.',
   },
   {
     id: 'practice-session',
