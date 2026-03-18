@@ -28,14 +28,14 @@ const Header: FC = () => {
           href="/"
           className="text-lg font-bold text-black tracking-tight hover:opacity-70 transition-opacity duration-200"
         >
-          <span className="inline-flex items-center gap-1">
+          <span className="inline-flex items-center gap-0">
             <Image
               src="/paio-logo.png"
               alt="PAIO Logo"
-              width={100}
+              width={50}
               height={40}
               className="w-24 h-16"
-            /> 2026
+            /> <span>2026</span>
           </span>
         </Link>
 

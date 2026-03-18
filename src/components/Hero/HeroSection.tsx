@@ -31,7 +31,7 @@ const HeroSection: FC = () => {
             Olympiad 2026
           </h1>
           <p className="text-lg text-gray-100 leading-relaxed max-w-xl mb-10">
-            Discover the brightest minds in computing across Africa. Showcase your algorithmic expertise, solve real-world challenges, and compete on the continental stage.
+            Welcome to Rwanda to celebrate African computing talent. Connect with the brightest minds across the continent, showcase your algorithmic expertise, and experience the beauty and vibrant innovation of the land of a thousand hills.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
             <a
