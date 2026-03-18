@@ -32,6 +32,12 @@ export const timelineEvents: TimelineEvent[] = [
     description: 'Final date for task proposals to be submitted by the scientific committee and contributors.',
   },
   {
+    id: 'training-end',
+    date: 'June 30, 2026',
+    title: 'AOA Training Ends',
+    description: 'The end of AOA Training.',
+  },
+  {
     id: 'practice-session',
     date: 'July 10, 2026',
     title: 'Practice Session',
