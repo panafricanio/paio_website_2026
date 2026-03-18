@@ -1,17 +1,17 @@
 import { CompetitionFormat } from '@/types';
 
 export const competitionFormat: CompetitionFormat = {
-  rounds: [
+  days: [
     {
-      id: 'round-1',
-      name: 'Round 1',
+      id: 'day-1',
+      name: 'Day 1',
       duration: '5 hours',
       description: 'Contestants tackle three algorithmic problems of increasing difficulty. Problems cover fundamental algorithms, data structures, and mathematical reasoning.',
       taskCount: 3,
     },
     {
-      id: 'round-2',
-      name: 'Round 2',
+      id: 'day-2',
+      name: 'Day 2',
       duration: '5 hours',
       description: 'Three advanced problems testing optimization, graph theory, and dynamic programming. Solutions are evaluated on correctness and efficiency.',
       taskCount: 3,
@@ -31,12 +31,12 @@ export const competitionFormat: CompetitionFormat = {
     {
       id: 'rule-environment',
       title: 'Competition Environment',
-      description: 'Each contestant is provided with a standardized workstation running Linux. No internet access or external resources are permitted during competition rounds.',
+      description: 'Each contestant is provided with a standardized workstation running Linux. No internet access or external resources are permitted during competition days.',
     },
     {
       id: 'rule-conduct',
       title: 'Code of Conduct',
-      description: 'Contestants must work independently during competition rounds. Any form of communication with others or use of unauthorized materials results in disqualification.',
+      description: 'Contestants must work independently during competition days. Any form of communication with others or use of unauthorized materials results in disqualification.',
     },
     {
       id: 'rule-appeals',

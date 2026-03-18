@@ -3,13 +3,13 @@
 import { FC, useState } from 'react';
 import { competitionFormat } from '../../../data/format';
 
-type Tab = 'rounds' | 'rules' | 'eligibility';
+type Tab = 'days' | 'rules' | 'eligibility';
 
 const FormatSection: FC = () => {
-  const [activeTab, setActiveTab] = useState<Tab>('rounds');
+  const [activeTab, setActiveTab] = useState<Tab>('days');
 
   const tabs: { key: Tab; label: string }[] = [
-    { key: 'rounds', label: 'Competition Rounds' },
+    { key: 'days', label: 'Competition Days' },
     { key: 'rules', label: 'Rules' },
     { key: 'eligibility', label: 'Eligibility' },
   ];
@@ -38,17 +38,17 @@ const FormatSection: FC = () => {
           ))}
         </div>
 
-        {activeTab === 'rounds' && (
+        {activeTab === 'days' && (
           <div className="grid gap-4 sm:grid-cols-2">
-            {competitionFormat.rounds.map((round) => (
-              <div key={round.id} className="bg-white rounded-2xl border border-gray-200 p-6 sm:p-8">
+            {competitionFormat.days.map((day) => (
+              <div key={day.id} className="bg-white rounded-2xl border border-gray-200 p-6 sm:p-8">
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-lg font-bold text-black">{round.name}</h3>
-                  <span className="text-xs font-semibold text-gray-400 uppercase tracking-wider">{round.duration}</span>
+                  <h3 className="text-lg font-bold text-black">{day.name}</h3>
+                  <span className="text-xs font-semibold text-gray-400 uppercase tracking-wider">{day.duration}</span>
                 </div>
-                <p className="text-sm text-gray-500 leading-relaxed mb-4">{round.description}</p>
+                <p className="text-sm text-gray-500 leading-relaxed mb-4">{day.description}</p>
                 <div className="flex items-center gap-2">
-                  <span className="text-2xl font-bold text-black">{round.taskCount}</span>
+                  <span className="text-2xl font-bold text-black">{day.taskCount}</span>
                   <span className="text-sm text-gray-400">tasks</span>
                 </div>
               </div>

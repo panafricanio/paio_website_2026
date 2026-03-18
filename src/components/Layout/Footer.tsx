@@ -49,22 +49,23 @@ const Footer: FC = () => {
           <div>
             <p className="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-4">Connect</p>
             <ul className="space-y-2.5">
-              <li><a href="#" className="text-sm text-gray-400 hover:text-white transition-colors duration-200">Twitter</a></li>
-              <li><a href="#" className="text-sm text-gray-400 hover:text-white transition-colors duration-200">LinkedIn</a></li>
-              <li><a href="#" className="text-sm text-gray-400 hover:text-white transition-colors duration-200">GitHub</a></li>
+              {/* <li><a href="" className="text-sm text-gray-400 hover:text-white transition-colors duration-200">Twitter</a></li> */}
+              <li><a target='_blank' href="https://www.linkedin.com/company/pan-african-informatics-olympiad/" className="text-sm text-gray-400 hover:text-white transition-colors duration-200">LinkedIn</a></li>
+              <li><a target='_blank' href="https://github.com/panafricanio" className="text-sm text-gray-400 hover:text-white transition-colors duration-200">GitHub</a></li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-gray-500">
-            &copy; {currentYear} Pan-African Informatics Olympiad. All rights reserved.
+            &copy; {currentYear} Pan-African Informatics Olympiad 2026. 
           </p>
-          <div className="flex items-center gap-6">
+          <p className="text-sm text-gray-500">All rights reserved.</p>
+          {/* <div className="flex items-center gap-6">
             <Link href="#" className="text-xs text-gray-500 hover:text-white transition-colors duration-200">Privacy</Link>
             <Link href="#" className="text-xs text-gray-500 hover:text-white transition-colors duration-200">Terms</Link>
             <Link href="#" className="text-xs text-gray-500 hover:text-white transition-colors duration-200">Code of Conduct</Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

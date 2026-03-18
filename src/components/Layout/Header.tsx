@@ -2,6 +2,7 @@
 
 import { FC, useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { SITE_CONFIG, NAVIGATION_ITEMS } from '@/lib/config';
 import { NavItem } from '@/types';
 
@@ -27,11 +28,14 @@ const Header: FC = () => {
           href="/"
           className="text-lg font-bold text-black tracking-tight hover:opacity-70 transition-opacity duration-200"
         >
-          <span className="inline-flex items-center gap-2">
-            <span className="w-7 h-7 bg-black rounded-md flex items-center justify-center">
-              <span className="text-white text-xs font-bold">P</span>
-            </span>
-            {SITE_CONFIG.name}
+          <span className="inline-flex items-center gap-1">
+            <Image
+              src="/paio-logo.png"
+              alt="PAIO Logo"
+              width={100}
+              height={40}
+              className="w-24 h-16"
+            /> 2026
           </span>
         </Link>
 

@@ -6,10 +6,10 @@ export const SITE_CONFIG = {
 
 export const NAVIGATION_ITEMS = [
   { label: 'Timeline', href: '/#timeline' },
-  { label: 'Agenda', href: '/agenda' },
   { label: 'Format', href: '/#format' },
   { label: 'Venue', href: '/#venue' },
-  { label: 'Sponsors', href: '/#sponsors' },
+  // { label: 'Sponsors', href: '/#sponsors' },
   { label: 'Register', href: '/#registration' },
+  { label: 'Agenda', href: '/agenda' },
 ];
 

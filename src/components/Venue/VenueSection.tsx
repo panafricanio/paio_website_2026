@@ -22,20 +22,30 @@ const VenueSection: FC = () => {
               />
             </div>
 
-            <div className="bg-gray-50 rounded-2xl border border-gray-200 p-6">
-              <p className="text-xs font-semibold tracking-widest uppercase text-gray-400 mb-3">Host Organization</p>
-              <h4 className="text-sm font-bold text-black mb-2">{hostOrganization.name}</h4>
-              <p className="text-sm text-gray-500 leading-relaxed">{hostOrganization.description}</p>
-              {hostOrganization.website && (
-                <a
-                  href={hostOrganization.website}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block mt-3 text-sm font-medium text-black underline underline-offset-4 hover:no-underline"
-                >
-                  Visit website
-                </a>
-              )}
+            <div>
+              <div className="rounded-2xl overflow-hidden border border-gray-200 mb-6 aspect-[16/10]">
+                <img
+                  src={hostOrganization.imageUrl}
+                  alt={hostOrganization.name}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              <div className="bg-gray-50 rounded-2xl border border-gray-200 p-6">
+                <p className="text-xs font-semibold tracking-widest uppercase text-gray-400 mb-3">Host Organization</p>
+                <h4 className="text-sm font-bold text-black mb-2">{hostOrganization.name}</h4>
+                <p className="text-sm text-gray-500 leading-relaxed">{hostOrganization.description}</p>
+                {hostOrganization.website && (
+                  <a
+                    href={hostOrganization.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block mt-3 text-sm font-medium text-black underline underline-offset-4 hover:no-underline"
+                  >
+                    Visit website
+                  </a>
+                )}
+              </div>
             </div>
           </div>
 

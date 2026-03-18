@@ -39,12 +39,12 @@ export interface FormatRule {
 }
 
 export interface CompetitionFormat {
-  rounds: FormatRound[];
+  days: FormatDay[];
   rules: FormatRule[];
   eligibility: string[];
 }
 
-export interface FormatRound {
+export interface FormatDay {
   id: string;
   name: string;
   duration: string;
@@ -68,6 +68,7 @@ export interface HostOrganization {
   description: string;
   website?: string;
   logoUrl?: string;
+  imageUrl?: string;
 }
 
 export interface CallForTasks {

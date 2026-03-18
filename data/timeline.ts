@@ -15,7 +15,7 @@ export const timelineEvents: TimelineEvent[] = [
   },
   {
     id: 'registration-closes',
-    date: 'June 30, 2026',
+    date: 'May 30, 2026',
     title: 'Registration Closes',
     description: 'Last day for national delegations to complete their registration.',
   },

@@ -1,12 +1,12 @@
 import { Venue, HostOrganization } from '@/types';
 
 export const venue: Venue = {
-  name: 'Kigali Convention Centre',
+  name: 'African Olympiad Academy (AOA)',
   city: 'Kigali',
   country: 'Rwanda',
-  description: 'The Kigali Convention Centre is a world-class facility and one of Africa\'s most iconic conference venues. Located in the heart of Kigali, it offers state-of-the-art infrastructure ideal for hosting international competitions and events.',
-  address: 'KN 2 Ave, Kigali, Rwanda',
-  imageUrl: 'https://images.pexels.com/photos/3844790/pexels-photo-3844790.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  description: 'The African Olympiad Academy (AOA) is a dedicated training and event facility supporting Olympiad-level learning and competitions. Located in Kigali, it offers an inspiring environment and the infrastructure needed to host international academic events.',
+  address: 'Kigali, Rwanda',
+  imageUrl: '/aoa.png',
   coordinates: { lat: -1.9536, lng: 30.0606 },
   facilities: [
     'High-speed internet connectivity',
@@ -19,7 +19,7 @@ export const venue: Venue = {
 };
 
 export const hostOrganization: HostOrganization = {
-  name: 'Rwanda Information Society Authority (RISA)',
-  description: 'RISA is the Rwandan government agency responsible for coordinating and driving the national ICT agenda. In partnership with the African Informatics Olympiad Committee, RISA is proud to host PAIO 2026 in Kigali.',
-  website: 'https://risa.rw',
+  name: 'Rwanda Olympiad Foundation',
+  imageUrl: '/rof.png',
+  description: 'The Rwanda Olympiad Foundation supports and promotes Olympiad participation and excellence in Rwanda. In partnership with the African Olympiad Academy, the Foundation is proud to host PAIO 2026 in Kigali.',
 };

@@ -17,7 +17,7 @@ const Home: FC = () => {
       <TimelineSection />
       <FormatSection />
       <VenueSection />
-      <SponsorsSection />
+      {/* <SponsorsSection /> */}
       <CallForTasksSection />
       <RegistrationSection />
       <Footer />
