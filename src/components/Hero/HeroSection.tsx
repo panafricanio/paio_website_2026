@@ -7,10 +7,9 @@ const HeroSection: FC = () => {
     <section className="w-full bg-white py-24 sm:py-32 lg:py-40">
       <div className="max-w-5xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="max-w-3xl">
-          <p className="text-xs font-semibold tracking-widest uppercase text-gray-400 mb-6">
-            Pan-African Informatics Olympiad
-          </p>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-black tracking-tight leading-[1.1] mb-6">
+            Pan African
+            <br />
             Informatics
             <br />
             Olympiad 2026
