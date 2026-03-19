@@ -44,7 +44,7 @@ const RegistrationSection: FC = () => {
               </div>
 
               <div className="mb-6">
-                <p className="text-xs font-semibold tracking-widest uppercase text-gray-400 mb-2">Contact</p>
+                <p className="text-xs font-semibold tracking-widest uppercase text-gray-400 mb-2">For further info Contact</p>
                 <a
                   href={`mailto:${registrationInfo.contactEmail}`}
                   className="text-sm text-black underline underline-offset-4 hover:no-underline"
@@ -54,7 +54,8 @@ const RegistrationSection: FC = () => {
               </div>
 
               <a
-                href={`mailto:${registrationInfo.contactEmail}?subject=PAIO 2026 Registration Inquiry`}
+                href={`https://forms.gle/eLQZM7pnxagKGUaa9`}
+                target='_blank'
                 className="inline-flex items-center justify-center w-full px-6 py-3 bg-black text-white text-sm font-semibold rounded-full hover:bg-gray-800 transition-colors duration-200"
               >
                 Register Your Delegation

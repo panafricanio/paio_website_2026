@@ -1,7 +1,7 @@
 export const SITE_CONFIG = {
   name: 'PAIO 2026',
   description: 'Pan-African Informatics Olympiad - Celebrating Excellence in Computing Across Africa',
-  url: 'https://paio2026.com',
+  url: 'https://panafricanio.com',
 };
 
 export const NAVIGATION_ITEMS = [

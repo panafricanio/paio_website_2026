@@ -12,5 +12,5 @@ export const registrationInfo: RegistrationInfo = {
     'Delegations must confirm participation and submit contestant details by the registration deadline.',
     'Accommodation and local transport will be arranged by the organizing committee upon registration.',
   ],
-  contactEmail: 'registration@paio2026.org',
+  contactEmail: 'registration@panafricanio.com',
 };

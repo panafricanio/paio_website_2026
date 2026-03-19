@@ -11,5 +11,5 @@ export const callForTasks: CallForTasks = {
     'Topics may include algorithms, data structures, graph theory, dynamic programming, combinatorics, and computational geometry.',
     'Submissions are reviewed by the Scientific Committee. Selected authors will be credited.',
   ],
-  contactEmail: 'tasks@paio2026.org',
+  contactEmail: 'tasks@panafricanio.com',
 };
