@@ -24,7 +24,7 @@ const AgendaSection: FC = () => {
   const [activeDay, setActiveDay] = useState(0);
 
   return (
-    <div className="w-full bg-gray-50 section-spacing">
+    <div className="w-full bg-gray-50 py-6">
       <div className="max-w-5xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="mb-16">
           <p className="text-xs font-semibold tracking-widest uppercase text-gray-400 mb-3">Schedule</p>

@@ -26,17 +26,16 @@ const Header: FC = () => {
       <nav className="max-w-5xl mx-auto px-6 sm:px-8 lg:px-12 h-16 flex items-center justify-between">
         <Link
           href="/"
-          className="text-lg font-bold text-black tracking-tight hover:opacity-70 transition-opacity duration-200"
+          className="text-lg inline-flex gap-0 font-bold text-black tracking-tight hover:opacity-70 transition-opacity duration-200"
         >
-          <span className="inline-flex items-center gap-0">
             <Image
               src="/paio-logo.png"
               alt="PAIO Logo"
               width={50}
               height={40}
-              className="w-24 h-16"
-            /> <span>2026</span>
-          </span>
+              className="w-fit p-0 h-16 bg-inherit"
+            /> 
+            <span className='my-auto'>2026</span>
         </Link>
 
         <ul className="hidden md:flex items-center gap-8">
@@ -66,7 +65,7 @@ const Header: FC = () => {
       </nav>
 
       {mobileOpen && (
-        <div className="md:hidden fixed inset-0 top-16 bg-white z-40">
+        <div className="md:hidden fixed inset-0 top-16 bg-white z-50">
           <nav className="px-6 py-8">
             <ul className="space-y-1">
               {NAVIGATION_ITEMS.map((item: NavItem) => (

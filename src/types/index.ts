@@ -47,6 +47,7 @@ export interface CompetitionFormat {
 export interface FormatDay {
   id: string;
   name: string;
+  date?: string;
   duration: string;
   description: string;
   taskCount: number;

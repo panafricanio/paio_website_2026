@@ -5,15 +5,17 @@ export const competitionFormat: CompetitionFormat = {
     {
       id: 'day-1',
       name: 'Day 1',
+      date: 'July 26',
       duration: '5 hours',
-      description: 'Contestants tackle three algorithmic problems of increasing difficulty. Problems cover fundamental algorithms, data structures, and mathematical reasoning.',
+      description: 'Contestants tackle three algorithmic problems testing their knowledge of data structures and algorithms. Problems cover fundamental techniques and mathematical reasoning with increasing difficulty.',
       taskCount: 3,
     },
     {
       id: 'day-2',
       name: 'Day 2',
+      date: 'July 27',
       duration: '5 hours',
-      description: 'Three advanced problems testing optimization, graph theory, and dynamic programming. Solutions are evaluated on correctness and efficiency.',
+      description: 'Contestants tackle three algorithmic problems testing their knowledge of data structures and algorithms. Problems cover advanced techniques including optimization, graph theory, and dynamic programming.',
       taskCount: 3,
     },
   ],
@@ -47,7 +49,7 @@ export const competitionFormat: CompetitionFormat = {
   eligibility: [
     'Contestants must be citizens or permanent residents of an African nation.',
     'Contestants must be enrolled in secondary education or younger (under 20 years old on the day of the competition).',
-    'Each country may send a delegation of up to 4 contestants and 2 team leaders.',
+    'Each country may send a delegation of up to 6 contestants (3 boys and 3 girls) and 2 team leaders.',
     'Contestants must have participated in their national selection process.',
     'All participants must agree to the PAIO Code of Conduct.',
   ],

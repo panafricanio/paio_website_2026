@@ -11,7 +11,6 @@ export const venue: Venue = {
   facilities: [
     'High-speed internet connectivity',
     'Individual workstations for all contestants',
-    'Dedicated translation rooms for team leaders',
     'On-site catering and dining facilities',
     'Medical support and first aid',
     'Transportation to and from accommodation',
@@ -19,7 +18,7 @@ export const venue: Venue = {
 };
 
 export const hostOrganization: HostOrganization = {
-  name: 'Rwanda Olympiad Foundation',
+  name: 'AOA & Rwanda Olympiad Foundation',
   imageUrl: '/rof.png',
-  description: 'The Rwanda Olympiad Foundation supports and promotes Olympiad participation and excellence in Rwanda. In partnership with the African Olympiad Academy, the Foundation is proud to host PAIO 2026 in Kigali.',
+  description: 'The Rwanda Olympiad Foundation supports and promotes Olympiad participation and excellence in Rwanda. In partnership with the African Olympiad Academy, they are proud to host PAIO 2026 in Kigali.',
 };

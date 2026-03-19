@@ -13,7 +13,7 @@ const AgendaPage: FC = () => {
   return (
     <main className="flex flex-col min-h-screen bg-white">
       <Header />
-      <div className="pt-16">
+      <div className="pt-0">
         <AgendaSection />
       </div>
       <Footer />
