@@ -46,6 +46,7 @@ const FormatSection: FC = () => {
                   <h3 className="text-lg font-bold text-black">{day.name}</h3>
                   <span className="text-xs font-semibold text-gray-400 uppercase tracking-wider">{day.duration}</span>
                 </div>
+                <p className="text-xs text-gray-400 uppercase tracking-wider mb-3">{day.date}</p>
                 <p className="text-sm text-gray-500 leading-relaxed mb-4">{day.description}</p>
                 <div className="flex items-center gap-2">
                   <span className="text-2xl font-bold text-black">{day.taskCount}</span>
