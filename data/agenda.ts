@@ -71,7 +71,7 @@ export const agendaDays: AgendaDay[] = [
   {
     id: 'day-5',
     date: 'Tuesday, 28 July 2026',
-    label: 'Day 5 - Hackathon & Closing',
+    label: 'Day 5 - Hackathon',
     events: [
       { time: '07:00', title: 'Breakfast', type: 'break' },
       { time: '08:00', title: 'Transport', type: 'social' },
