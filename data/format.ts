@@ -5,7 +5,7 @@ export const competitionFormat: CompetitionFormat = {
     {
       id: 'day-1',
       name: 'Day 1',
-      date: 'July 26',
+      date: 'July 25',
       duration: '5 hours',
       description: 'Contestants tackle three algorithmic problems testing their knowledge of data structures and algorithms. Problems cover fundamental techniques and mathematical reasoning with increasing difficulty.',
       taskCount: 3,
