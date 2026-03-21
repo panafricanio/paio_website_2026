@@ -3,7 +3,7 @@ import { TimelineEvent } from '@/types';
 export const timelineEvents: TimelineEvent[] = [
   {
     id: 'registration-open',
-    date: 'March 31, 2026',
+    date: 'March 21, 2026',
     title: 'Registration Opens',
     description: 'National teams can begin registering their delegations for PAIO 2026.',
   },
