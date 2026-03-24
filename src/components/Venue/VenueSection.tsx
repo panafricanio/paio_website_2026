@@ -32,7 +32,7 @@ const VenueSection: FC = () => {
               </div>
 
               <div className="bg-gray-50 rounded-2xl border border-gray-200 p-6">
-                <p className="text-xs font-semibold tracking-widest uppercase text-gray-400 mb-3">Host Organization</p>
+                <p className="text-xs font-semibold tracking-widest uppercase text-gray-400 mb-3">Host Organizations</p>
                 <h4 className="text-sm font-bold text-black mb-2">{hostOrganization.name}</h4>
                 <p className="text-sm text-gray-500 leading-relaxed">{hostOrganization.description}</p>
                 {hostOrganization.website && (
