@@ -33,7 +33,7 @@ export const agendaDays: AgendaDay[] = [
   {
     id: 'day-2',
     date: 'Saturday, 25 July 2026',
-    label: 'Day 2 - Contest & Engagement',
+    label: 'Day 2 - Contest Day 1',
     events: [
       { time: '07:00', title: 'Breakfast', type: 'break' },
       { time: '08:00', title: 'Contest Day 1 (Students) - GA 3', type: 'competition' },
@@ -59,7 +59,7 @@ export const agendaDays: AgendaDay[] = [
   {
     id: 'day-4',
     date: 'Monday, 27 July 2026',
-    label: 'Day 4 - Contest Day 1',
+    label: 'Day 4 - Contest Day 2',
     events: [
       { time: '07:00', title: 'Breakfast', type: 'break' },
       { time: '08:00', title: 'Contest Day 2 (Students) - GA 6', type: 'competition' },
