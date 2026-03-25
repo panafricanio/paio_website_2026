@@ -24,19 +24,18 @@ const Header: FC = () => {
   return (
     <>
       <header className={`sticky top-0 z-50 w-full transition-all duration-200 ${scrolled ? 'bg-white/95 backdrop-blur-md border-b border-gray-200' : 'bg-white'}`}>
-        <nav className="max-w-5xl mx-auto px-6 sm:px-8 lg:px-12 h-16 flex items-center justify-between">
+        <nav className="max-w-5xl mx-auto px-6 sm:px-8 lg:px-12 h-fit flex items-center justify-between">
           <Link
             href="/"
             className="text-lg inline-flex gap-0 font-bold text-black tracking-tight hover:opacity-70 transition-opacity duration-200"
           >
-              <Image
-                src="/paio-logo.png"
+              <img
+                src="/paio3.png"
                 alt="PAIO Logo"
-                width={50}
-                height={40}
-                className="w-fit p-0 h-16 bg-inherit"
+                // width={30}
+                // height={10}
+                className="w-fit h-18 bg-inherit overflow-hidden py-2"
               /> 
-              <span className='my-auto'>2026</span>
           </Link>
 
           <ul className="hidden md:flex items-center gap-8">
