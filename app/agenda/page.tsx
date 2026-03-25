@@ -6,7 +6,7 @@ import Footer from '@/components/Layout/Footer';
 
 export const metadata: Metadata = {
   title: 'Agenda - PAIO 2026',
-  description: 'Full 7-day schedule for the Pan-African Informatics Olympiad 2026. August 2-8, Kigali.',
+  description: 'Full schedule for the Pan-African Informatics Olympiad 2026. July 23rd - 30th, Kigali.',
 };
 
 const AgendaPage: FC = () => {

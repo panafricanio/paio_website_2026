@@ -30,7 +30,7 @@ const AgendaSection: FC = () => {
           <p className="text-xs font-semibold tracking-widest uppercase text-gray-400 mb-3">Schedule</p>
           <h2 className="text-3xl sm:text-4xl font-bold text-black tracking-tight">Agenda</h2>
           <p className="mt-4 text-gray-500 text-sm max-w-xl leading-relaxed">
-            7 days of competition, collaboration, and cultural exchange. August 2 - 8, 2026.
+            7 days of competition, collaboration, and cultural exchange. July 23rd - 30th, 2026.
           </p>
         </div>
 
