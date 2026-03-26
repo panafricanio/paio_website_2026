@@ -14,10 +14,13 @@ const Footer: FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <span className="w-7 h-7 bg-white rounded-md flex items-center justify-center">
-                <span className="text-black text-xs font-bold">P</span>
-              </span>
-              <span className="text-base font-bold">{SITE_CONFIG.name}</span>
+               <img
+                src="/paio4.png"
+                alt="PAIO Logo"
+                // width={30}
+                // height={10}
+                className="w-fit h-18 bg-inherit overflow-hidden"
+              /> 
             </div>
             <p className="text-sm text-gray-500 leading-relaxed max-w-xs">
               Celebrating computational excellence and discovering the brightest minds in computing across Africa.
@@ -58,7 +61,7 @@ const Footer: FC = () => {
 
         <div className="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-gray-500">
-            &copy; {currentYear} Pan-African Informatics Olympiad 2026. 
+            &copy; {currentYear} Pan-African Informatics Olympiad. 
           </p>
           <p className="text-sm text-gray-500">All rights reserved.</p>
           {/* <div className="flex items-center gap-6">

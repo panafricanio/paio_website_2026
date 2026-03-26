@@ -10,6 +10,7 @@ export const NAVIGATION_ITEMS = [
   { label: 'Venue', href: '/#venue' },
   // { label: 'Sponsors', href: '/#sponsors' },
   { label: 'Register', href: '/#registration' },
+  { label: 'Travel & Visa', href: '/travel' },
   { label: 'Agenda', href: '/agenda' },
 ];
 
